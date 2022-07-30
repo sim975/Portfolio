@@ -1,0 +1,112 @@
+/* Project page CSS */
+
+*{
+    background-color: #eff4fd;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    
+}
+
+
+
+.cards{
+    width: 20%;
+    display:inline-block;
+    
+    border: solid 2px orange;
+    border-radius: 15px;
+    margin: 20px 97px;
+    
+   
+    
+}
+
+.card-image img{
+    width: 100%;
+    border-top-left-radius: 16px;
+    border-top-right-radius:16px ;
+    
+    
+}
+
+
+
+
+.card-title{
+    text-align: center;
+}
+
+.card-desc{
+    text-align: center;
+    margin-bottom: 50px;
+    
+    
+}
+
+.card-desc p{
+    margin-bottom: 40px;
+}
+
+.card-desc a{
+    border: solid 2px orange;
+    text-decoration: none;
+    color:white;
+    padding: 15px 25px;
+    background-color: orange;
+    border-radius: 15px;
+    
+}
+
+.card-desc a:hover{
+    color: black;
+    font-weight: solid;
+    box-shadow: 3px 3px 3px orange;
+    background-color: white;
+}
+
+
+.navbar{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px;
+}
+
+.navbar h1{
+    margin: 60px 80px;
+    position: relative;
+    
+   
+}
+
+.navbar ul{
+    display: flex;
+    align-items: flex-start;
+    
+}
+
+.navbar ul li{
+    display: inline-flex;
+    margin: 60px;
+    
+    
+}
+
+.navbar ul li a{
+    position:relative;
+    left: 100px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border-radius: 8px;
+    border: solid 2px #eff4fd;
+    padding: 10px 15px;
+    
+}
+
+.navbar ul li a:hover{
+    border-color: orange;
+    
+}
